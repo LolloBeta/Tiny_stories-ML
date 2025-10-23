@@ -123,13 +123,3 @@ Model trained on [TinyStories-GPT4 dataset](https://huggingface.co/datasets/skes
 **Training Strategy:** Sliding window of 50 tokens over each story with two tag insertion approaches tested
 
 **Text Generation:** Top-p sampling (p=0.9) with dynamic EOS bias after 200 tokens, max length 350 tokens
-
-## License
-
-[Choose your license]
-
-## Acknowledgments
-
-- TinyStories dataset by Eldan & Li (Microsoft Research)
-- Hugging Face Transformers library
-- GPT-2 tokenizer by OpenAI
